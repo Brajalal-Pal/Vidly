@@ -186,6 +186,10 @@
     <Compile Include="Migrations\201808042145454_AddMovieToApplicationDbContext.Designer.cs">
       <DependentUpon>201808042145454_AddMovieToApplicationDbContext.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201808042157425_ApplyDataAnnotationInMovieName.cs" />
+    <Compile Include="Migrations\201808042157425_ApplyDataAnnotationInMovieName.Designer.cs">
+      <DependentUpon>201808042157425_ApplyDataAnnotationInMovieName.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Customer.cs" />
@@ -288,6 +292,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201808042145454_AddMovieToApplicationDbContext.resx">
       <DependentUpon>201808042145454_AddMovieToApplicationDbContext.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201808042157425_ApplyDataAnnotationInMovieName.resx">
+      <DependentUpon>201808042157425_ApplyDataAnnotationInMovieName.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
