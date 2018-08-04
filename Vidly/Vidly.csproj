@@ -182,6 +182,10 @@
     <Compile Include="Migrations\201808041901293_PopulateMembershipTypes1.Designer.cs">
       <DependentUpon>201808041901293_PopulateMembershipTypes1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201808042145454_AddMovieToApplicationDbContext.cs" />
+    <Compile Include="Migrations\201808042145454_AddMovieToApplicationDbContext.Designer.cs">
+      <DependentUpon>201808042145454_AddMovieToApplicationDbContext.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Customer.cs" />
@@ -281,6 +285,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201808041901293_PopulateMembershipTypes1.resx">
       <DependentUpon>201808041901293_PopulateMembershipTypes1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201808042145454_AddMovieToApplicationDbContext.resx">
+      <DependentUpon>201808042145454_AddMovieToApplicationDbContext.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

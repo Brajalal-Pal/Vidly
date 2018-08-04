@@ -9,7 +9,10 @@ namespace Vidly.Models
     public class Movie
     {
         public int Id { get; set; }
+        [Required]
         [Display(Name = "Movie")]
+        [StringLength(100)]
         public string Name { get; set; }
+        public string Genre { get; set; }
     }
 }
